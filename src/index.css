@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* 番茄红主题色板（Tailwind v4 CSS-first 配置） */
+@theme {
+  --color-tomato-50: #fdf3f2;
+  --color-tomato-100: #fbe5e3;
+  --color-tomato-200: #f8cfcb;
+  --color-tomato-300: #f2a49c;
+  --color-tomato-400: #e97464;
+  --color-tomato-500: #e0533d;
+  --color-tomato-600: #cb3f2c;
+  --color-tomato-700: #aa3323;
+  --color-tomato-800: #8c2d21;
+  --color-tomato-900: #752a21;
+}
+
+body {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+}
